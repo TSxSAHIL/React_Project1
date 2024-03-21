@@ -12,6 +12,7 @@ function App() {
     console.log(contact);
     setContacts([...contacts , contact]);
   } 
+  
 
   useEffect(() =>{
     localStorage.setItem(LOCAL_STORAGE_KEY , JSON.stringify(contacts));
